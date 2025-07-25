@@ -33,7 +33,7 @@ export const PeoplePage = () => {
 
           {error !== null && (
             <p data-cy="peopleLoadingError" className="has-text-danger">
-              Something went wrong
+              {error}
             </p>
           )}
 
